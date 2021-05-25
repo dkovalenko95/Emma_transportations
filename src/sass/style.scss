@@ -1,11 +1,20 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/font';
-
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+@import 'blocks/navigation';
+@import 'blocks/promo';
 
 @import 'base/_mixins';
 @import 'base/_variables';

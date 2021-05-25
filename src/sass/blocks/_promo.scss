@@ -1,0 +1,82 @@
+.promo {
+    position: relative;
+    margin: 20px 0;
+    min-height: 500px;
+    &__bg {
+        display: block;
+        position: absolute;
+        left: -389px;
+        z-index: -2;
+    }
+    &__info {
+        // width: 100%;
+        width: 440px;
+        height: 500px;
+        position: absolute;
+        left: 700px;
+        padding: 20px 15px 20px 60px;
+        border: 3px solid #ec1d25;
+        border-radius: 4px;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    &__service {
+        margin-bottom: 30px;
+        width: 360px;
+    }
+    &__text {
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__btn {
+        width: 160px;
+        height: 50px;
+        color: #20c42b;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 44px;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 15px;
+        background: url('../../icons/button_icon_link_whatsapp.png') right (center / contain) no-repeat;
+        border: 3px solid #44D84F;
+        border-radius: 12px;
+        transition: 0.3s all;
+        &:hover {
+            box-shadow: 0px 0px 5px 1px #44D84F;
+            font-size: 16px;
+        }
+    }
+    &__red {
+        position: absolute;
+        bottom: -1px;
+        background-color: #ec1d25;
+        left: -1px;
+        height: 135px;
+        width: 438px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    &__adv {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 700;
+        color: #fdee00;
+        margin-bottom: 15px;
+    }
+    &__work {
+        width: 350px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+            height: 40px;
+        }
+    }
+}
