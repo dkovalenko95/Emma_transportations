@@ -1,0 +1,30 @@
+.price {
+    padding: 50px 30px;
+    min-height: 450px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    &__item {
+        position: relative;
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 45px;
+        border-bottom: 1px solid #ec1d25;
+        span {
+            font-weight: 700;
+        }
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: -20px;
+            top: 12px;
+            background: url('../../icons/check_solid.svg') center (center / cover) no-repeat 
+        }
+    }
+}

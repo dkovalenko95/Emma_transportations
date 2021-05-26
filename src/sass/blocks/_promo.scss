@@ -9,8 +9,8 @@
         z-index: -2;
     }
     &__info {
-        // width: 100%;
-        width: 440px;
+        width: 100%;
+        // width: 440px;
         height: 500px;
         position: absolute;
         left: 700px;
@@ -19,25 +19,41 @@
         border-radius: 4px;
     }
     &__title {
+        width: 360px;
         text-transform: uppercase;
         font-size: 22px;
         font-weight: 700;
         margin-bottom: 20px;
+        border-bottom: 2px solid #ec1d25;
     }
     &__service {
         margin-bottom: 30px;
         width: 360px;
     }
     &__text {
+        position: relative;
         margin-bottom: 15px;
         font-size: 18px;
         font-weight: 500;
+        padding-left: 10px;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: -20px;
+            top: 5px;
+            background: url('../../icons/check_solid.svg') center (center / cover) no-repeat 
+        }
     }
     &__btn {
+        display: block;
         width: 160px;
         height: 50px;
         color: #20c42b;
         text-transform: uppercase;
+        text-decoration: none;
         font-size: 15px;
         line-height: 44px;
         font-weight: 700;
@@ -48,6 +64,7 @@
         border-radius: 12px;
         transition: 0.3s all;
         &:hover {
+            color: #20c42b;
             box-shadow: 0px 0px 5px 1px #44D84F;
             font-size: 16px;
         }
@@ -58,11 +75,15 @@
         background-color: #ec1d25;
         left: -1px;
         height: 135px;
-        width: 438px;
+        // width: 438px;
+        width: 100%;
         text-align: center;
         padding: 20px 0;
     }
     &__adv {
+        width: 438px;
+        display: flex;
+        justify-content: center;
         text-transform: uppercase;
         font-size: 22px;
         font-weight: 700;
@@ -70,11 +91,11 @@
         margin-bottom: 15px;
     }
     &__work {
-        width: 350px;
-        margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
+        width: 438px;
+        // margin: 0 auto;
         img {
             height: 40px;
         }
