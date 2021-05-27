@@ -1,11 +1,9 @@
 .services {
     height: 600px;
-    .container {
-        top: -20px;
-        height: 600px;
-        background: url('../../img/bg_services.jpg') center (center / cover) no-repeat;
-        padding: 50px 15px 20px 15px;
-    }
+    background: url('../../img/bg_services.jpg') center (center / cover) no-repeat;
+    padding: 50px 15px;
+    width: 1140px;
+    margin: 0 auto;
     &__block {
         display: flex;
         flex-wrap: wrap;
@@ -16,6 +14,7 @@
         width: 200px;
         min-height: 330px;
         text-align: center;
+        margin-bottom: 50px;
     }
     &__icon {
         width: 140px;
@@ -25,14 +24,20 @@
         }
     }
     &__descr {
-        width: 190px;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 22px;
         font-weight: 700;
         margin: 0 auto;
+    }
+    &__official {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
         span {
             color: #ec1d25;
-            font-size: 18px;
+            font-size: 30px;
         }
     }
 }

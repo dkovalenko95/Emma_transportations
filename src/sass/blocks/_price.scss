@@ -1,17 +1,19 @@
 .price {
-    padding: 50px 30px;
+    position: relative;
+    padding: 50px 15px;
     min-height: 450px;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        padding-left: 40px;
     }
     &__item {
         position: relative;
-        padding-left: 10px;
+        padding-left: 15px;
         font-weight: 500;
         font-size: 20px;
-        line-height: 45px;
+        line-height: 40px;
         border-bottom: 1px solid #ec1d25;
         span {
             font-weight: 700;
@@ -23,8 +25,17 @@
             width: 20px;
             height: 20px;
             left: -20px;
-            top: 12px;
+            top: 10px;
             background: url('../../icons/check_solid.svg') center (center / cover) no-repeat 
         }
+        &:last-child {
+            margin-bottom: 20px;
+        }
+    }
+    &__add {
+        padding-left: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: italic;
     }
 }
