@@ -1,0 +1,26 @@
+.footer {
+    margin: 0 auto;
+    width: 1140px;
+    height: 70px;
+    padding: 10px;
+    background-color: #ec1d25;
+    border-radius: 8px;
+    &__wrapper {
+        padding: 0 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s all;
+            &:hover {
+                color: #fdee00;
+                text-decoration: underline;
+            }
+        }
+    }
+}

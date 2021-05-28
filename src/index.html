@@ -46,15 +46,15 @@
 
 <body>
     <header class="header">
-        <nav class="nav">
+        <nav class="nav" id="main">
             <div class="container">
                 <div class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu_link"><img src="icons/Bus_button.png" alt="Main page"></a></li>
-                        <li class="menu__item"><a href="#" class="menu_link">Услуги</a></li>
-                        <li class="menu__item"><a href="#" class="menu_link">Цены</a></li>
-                        <li class="menu__item"><a href="#" class="menu_link">Упаковка</a></li>
-                        <li class="menu__item"><a href="#" class="menu_link">О нас</a></li>
+                        <li class="menu__item"><a href="#main" class="menu__link"><img src="icons/Bus_button.png" alt="Main page"></a></li>
+                        <li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="#price" class="menu__link">Цены</a></li>
+                        <li class="menu__item"><a href="#package" class="menu__link">Упаковка</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
                     </ul>
                     <div class="menu__contacts">
                         <a href="tel:05443322848" class="menu__phone">054 43322848</a>
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <h2 class="title">Услуги</h2>
             <div class="services__block">
@@ -119,7 +119,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <h2 class="title">Цены</h2>
             <div class="price__wrapper">
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section class="package">
+    <section class="package" id="package">
         <div class="container">
             <h2 class="title">Упаковочные материалы</h2>
             <div class="package__wrapper">
@@ -217,12 +217,12 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="title">О компании</h2>
             <div class="about__wrapper">
-                <div class="about__image"><img src="" alt="" class="about__picture"></div>
-                <div class="about__text">Перевозки Эмма -  это ваш выбор в сфере транспортных услуг! Нужно организовать квартирный или офисный переезд? Обращайтесь к нам! Мы успешно занимаемся грузоперевозками по всему Израилю больше 10 лет. Поможем Вам решить любой вопрос как с комплексным переездом, так и с транспортировкой одиночных объектов. У нас работают професиональные грузчики, которые в целости и сохранности организуют транспортировку ваших вещей. Осуществляем подъем, спуск, перенос, упаковку и доставку любых вещей быстро и качественно. Вы можете закать упаковочные материалы связавшись с нами. Также предоставляем услуги подъемного крана для решения особо сложных задач по переносу и подъему. Занимаемся проффесиональной сборкой и разборкой всех видов мебели. Предоставляем склад для временного хранения вещей. Гарантируем безопасность и сохранность вашего имущества. Работаем круглосуточно. Для заказа свяжитесь с нами через <a href="whatsapp://send?phone=+05443322848" class="about__link">WhatApp</a> или по номеру <a href="tel:05443322848" class="about__phone">054 43322848</a></div>
+                <div class="about__image"><img src="img/EMMA-logo-for-Figma.png" alt="perevozki-emma" class="about__picture"></div>
+                <div class="about__text">Перевозки Эмма -  это ваш выбор в сфере транспортных услуг!<br><br>Нужно организовать квартирный или офисный переезд? Обращайтесь к нам! <br>Мы успешно занимаемся грузоперевозками по всему Израилю больше 10 лет. Поможем Вам решить любой вопрос как с комплексным переездом, так и с транспортировкой одиночных объектов. У нас работают професиональные грузчики, которые в целости и сохранности организуют транспортировку ваших вещей.<br> Осуществляем подъем, спуск, перенос, упаковку и доставку любых вещей быстро и качественно. Вы можете закать упаковочные материалы связавшись с нами. <br>Также предоставляем услуги подъемного крана для решения особо сложных задач по переносу и подъему. <br>Занимаемся проффесиональной сборкой и разборкой всех видов мебели. <br>Предоставляем склад для временного хранения вещей. Гарантируем безопасность и сохранность вашего имущества. <br>Работаем круглосуточно. <br><br>Для заказа свяжитесь с нами через <a href="whatsapp://send?phone=+05443322848" class="about__link">WhatApp</a> или по номеру <a href="tel:05443322848" class="about__phone">054 43322848</a></div>
             </div>
         </div>
     </section>
@@ -230,13 +230,13 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__block1">
-                    <a href="" class="footer__we">О нас</a>
-                    <a href="" class="footer__do">Услуги</a>
+                <div class="footer__block">
+                    <a href="#about" class="footer__we">О нас</a>
+                    <a href="#main" class="footer__do">Контакты</a>
                 </div>
-                <div class="footer__block2">
-                    <a href="" class="footer__cost">Цены</a>
-                    <a href="" class="footer__contact">Контакты</a>
+                <div class="footer__block">
+                    <a href="#services" class="footer__cost">Услуги</a>
+                    <a href="#main" class="footer__contact">Цены</a>
                 </div>
             </div>
         </div>
