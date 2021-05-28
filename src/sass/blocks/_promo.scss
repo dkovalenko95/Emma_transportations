@@ -2,7 +2,9 @@
     position: relative;
     min-height: 500px;
     &__bg {
-        display: block;
+        height: 500px;
+        width: 1089px;
+        background: url('../img/bg_main_logo.jpg') center (center / cover) no-repeat;
         position: absolute;
         left: -389px;
         z-index: -5;
