@@ -242,6 +242,19 @@
     }
     .services {
         width: 550px;
+        &__item {
+            width: 190px;
+        }
+    }
+    .price {
+        &__item {
+            width: 480px;
+        }
+    }
+    .about {
+        &__text {
+            width: 520px;
+        }
     }
     .footer {
         width: 550px;
@@ -250,5 +263,75 @@
 
 
 @media (max-width: 575.98px) {
-
+    .container {
+        width: 290px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .promo {
+        &__info {
+            width: 290px;
+        }
+        &__bg {
+            width: 290px;
+            height: 130px;
+        }
+        &__red {
+            width: 287px;
+        }
+        &__adv {
+            width: 290px;
+            font-size: 16px;
+        }
+        &__work {
+            width: 290px;
+        }
+        &__service {
+            width: 220px;
+        }
+        &__title {
+            width: 200px;
+            font-size: 20px;
+        }
+    }
+    .services {
+        position: relative;
+        width: 290px;
+        &__official {
+            font-size: 14px;
+            width: 270px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__item {
+            position: relative;
+            right: 15px;
+        }
+    }
+    .price {
+        &__item {
+            width: 250px;
+        }
+    }
+    .about {
+        &__text {
+            width: 290px;
+        }
+        &__image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .footer {
+        width: 300px;
+        &__wrapper {
+            justify-content: center;
+        }
+        &__block {
+            margin: 0 15px;
+        }
+    }
 };
