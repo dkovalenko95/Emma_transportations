@@ -6,6 +6,7 @@
     .menu {
         &__phone {
             font-size: 16px;
+            padding-right: 10px;
         }
         &__item {
             width: 110px;
@@ -39,6 +40,12 @@
         width: 920px;
         &__item {
             width: 180px;
+        }
+        &__official {
+            font-size: 18px;
+            span {
+                font-size: 22px;
+            }
         }
     }
     .price {
@@ -154,7 +161,7 @@
         position: fixed;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         top: 0;
         left: -100%;
         width: 50%;
@@ -264,28 +271,28 @@
 
 @media (max-width: 575.98px) {
     .container {
-        width: 290px;
+        width: 295px;
     }
     .title {
         font-size: 24px;
     }
     .promo {
         &__info {
-            width: 290px;
+            width: 300px;
         }
         &__bg {
             width: 290px;
             height: 130px;
         }
         &__red {
-            width: 287px;
+            width: 297px;
         }
         &__adv {
-            width: 290px;
+            width: 300px;
             font-size: 16px;
         }
         &__work {
-            width: 290px;
+            width: 300px;
         }
         &__service {
             width: 220px;
@@ -297,7 +304,7 @@
     }
     .services {
         position: relative;
-        width: 290px;
+        width: 300px;
         &__official {
             font-size: 14px;
             width: 270px;
@@ -307,19 +314,32 @@
         }
         &__item {
             position: relative;
-            right: 15px;
+            right: 10px;
+            width: 240px;
+        }
+        &__descr {
+            font-size: 16px;
         }
     }
     .price {
         &__item {
             width: 250px;
+            line-height: 36px;
+        }
+    }
+    .package {
+        &__item {
+            height: 390px;
         }
     }
     .about {
         &__text {
-            width: 290px;
+            width: 295px;
+            text-align: center;
+            padding-left: 0;
         }
         &__image {
+            padding-left: 0;
             img {
                 width: 100%;
             }
