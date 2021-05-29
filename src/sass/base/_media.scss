@@ -307,6 +307,8 @@
         }
         &__service {
             width: 220px;
+            position: relative;
+            right: 15px;
         }
         &__title {
             width: 200px;
@@ -411,17 +413,24 @@
         }
         &__service {
             width: 220px;
+            position: relative;
+            right: 20px;
         }
         &__title {
             width: 200px;
             font-size: 20px;
+            position: relative;
+            right: 20px;
+        }
+        &__btn {
+            margin-left: 5px;
         }
     }
     .services {
         position: relative;
         width: 300px;
         &__official {
-            font-size: 14px;
+            font-size: 17px;
             width: 270px;
             span {
                 font-size: 16px;
