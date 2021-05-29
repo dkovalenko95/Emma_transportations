@@ -160,8 +160,8 @@
     .menu__list {
         position: fixed;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: start;
+        align-items: center;
         top: 0;
         left: -100%;
         width: 50%;
@@ -179,7 +179,7 @@
         };
     };
     .menu__item {
-        width: 120px;
+        width: 150px;
         margin-bottom: 15px;
     }
     .menu__hamburger {
@@ -228,23 +228,30 @@
             position: relative;
             background: url('../img/EMMA-logo-for-Figma.png') center (center / cover) no-repeat;
             left: 0;
-            height: 155px;
-            width: 340px;
+            height: 160px;
+            width: 355px;
             margin: 15px 0;
         }
         &__info {
             position: relative;
             left: 0;
-            width: 340px;
+            width: 390px;
+            padding-left: 80px;
         }
         &__red {
-            width: 337px;
+            width: 387px;
         }
         &__work {
-            width: 337px;
+            width: 387px;
         }
         &__adv {
-            width: 337px;
+            width: 387px;
+        }
+        &__service {
+            width: 280px;
+        }
+        &__btn {
+            margin-left: 30px;
         }
     }
     .services {
@@ -268,13 +275,121 @@
     }
 };
 
-
 @media (max-width: 575.98px) {
+    .container {
+        width: 350px;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .menu {
+        &__item {
+            width: 150px;
+        }
+    }
+    .promo {
+        &__info {
+            width: 350px;
+        }
+        &__bg {
+            width: 330px;
+            height: 150px;
+        }
+        &__red {
+            width: 347px;
+        }
+        &__adv {
+            width: 350px;
+            font-size: 18px;
+        }
+        &__work {
+            width: 350px;
+        }
+        &__service {
+            width: 220px;
+        }
+        &__title {
+            width: 200px;
+            font-size: 20px;
+        }
+    }
+    .services {
+        position: relative;
+        width: 350px;
+        &__official {
+            font-size: 16px;
+            width: 315px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__item {
+            position: relative;
+            right: 10px;
+            width: 240px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .price {
+        &__item {
+            width: 340px;
+            line-height: 36px;
+            right: 10px;
+        }
+    }
+    .package {
+        &__item {
+            height: 340px;
+            width: 160px;
+        }
+        &__btn {
+            left: 15px;
+            width: 125px;
+            font-size: 12px;
+        }
+        &__title {
+            width: 100px;
+            font-size: 15px;
+            top: 68%;
+        }
+    }
+    .about {
+        &__text {
+            width: 345px;
+            text-align: center;
+            padding-left: 0;
+        }
+        &__image {
+            padding-left: 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .footer {
+        width: 350px;
+        &__wrapper {
+            position: relative;
+            width: 330px;
+            justify-content: center;
+        }
+        &__block {
+            margin: 0 80px;
+        }
+    }
+};
+
+@media (max-width: 419.98px) {
     .container {
         width: 295px;
     }
     .title {
         font-size: 24px;
+    }
+    .menu__item {
+        width: 120px;
     }
     .promo {
         &__info {
