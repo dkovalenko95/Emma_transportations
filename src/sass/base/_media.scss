@@ -473,6 +473,8 @@
         width: 300px;
         &__wrapper {
             justify-content: center;
+            position: relative;
+            width: 100%;
         }
         &__block {
             margin: 0 15px;
