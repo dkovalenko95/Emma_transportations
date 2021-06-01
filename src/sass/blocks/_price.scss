@@ -1,7 +1,7 @@
 .price {
     position: relative;
     padding: 65px 15px 30px 15px;
-    min-height: 450px;
+    min-height: 380px;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -16,6 +16,8 @@
         line-height: 40px;
         border-bottom: 1px solid #ec1d25;
         span {
+            color: #ec1d25;
+            text-transform: uppercase;
             font-weight: 700;
         }
         &:before {
@@ -26,7 +28,7 @@
             height: 20px;
             left: -20px;
             top: 10px;
-            background: url('../../icons/check_solid.svg') center (center / cover) no-repeat 
+            background: url('../icons/check_solid.svg') center (center / cover) no-repeat 
         }
         &:last-child {
             margin-bottom: 20px;

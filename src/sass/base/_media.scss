@@ -37,10 +37,6 @@
         }
     }
     .services {
-        width: 920px;
-        &__item {
-            width: 180px;
-        }
         &__official {
             font-size: 18px;
             span {
@@ -57,9 +53,6 @@
         &__text {
             font-size: 15px;
         }
-    }
-    .footer {
-        width: 920px;
     }
 };
 @media (max-width: 991.98px) {
@@ -111,15 +104,14 @@
         }
     }
     .services {
-        width: 720px;
         &__item {
-            width: 140px;
+            width: 200px;
         }
         &__icon {
             width: 120px;
         }
         &__descr {
-            font-size: 14px;
+            font-size: 16px;
         }
         &__official {
             font-size: 20px;
@@ -142,11 +134,11 @@
             text-align: center;
         }
     }
-    .footer {
-        width: 720px;
-    }
 };
 @media (max-width: 767.98px) {
+    .container {
+        width: 540px;
+    }
     .menu {
         justify-content: start;
         padding: 5px 15px;
@@ -213,9 +205,6 @@
             }
         }
     };
-    .container {
-        width: 540px;
-    }
     .promo {
         &__wrapper {
             position: relative;;
@@ -254,12 +243,6 @@
             margin-left: 30px;
         }
     }
-    .services {
-        width: 550px;
-        &__item {
-            width: 190px;
-        }
-    }
     .price {
         &__item {
             width: 480px;
@@ -271,13 +254,29 @@
         }
     }
     .footer {
-        width: 550px;
+        &__wrapper {
+            padding: 0 10px;
+        }
+        &__navigation {
+            font-size: 16px;
+            line-height: 25px;
+        }
+        &__phone {
+            font-size: 15px
+        }
+        &__social {
+            font-size: 16px;
+            text-align: center;
+            img {
+                width: 40px;
+            }
+        }
     }
 };
 
 @media (max-width: 575.98px) {
     .container {
-        width: 350px;
+        width: 370px;
     }
     .title {
         font-size: 26px;
@@ -316,22 +315,20 @@
         }
     }
     .services {
-        position: relative;
-        width: 350px;
         &__official {
             font-size: 16px;
-            width: 315px;
             span {
                 font-size: 18px;
             }
         }
         &__item {
-            position: relative;
-            right: 10px;
-            width: 240px;
+            width: 280px;
         }
         &__descr {
             font-size: 18px;
+        }
+        &__official {
+            font-size: 20px;
         }
     }
     .price {
@@ -343,18 +340,23 @@
     }
     .package {
         &__item {
-            height: 340px;
-            width: 160px;
+            width: 175px;
         }
         &__btn {
-            left: 15px;
+            left: 24px;
             width: 125px;
             font-size: 12px;
         }
         &__title {
-            width: 100px;
+            width: 90%;
             font-size: 15px;
-            top: 68%;
+            top: 47%;
+        }
+        &__photo {
+            width: 80%;
+        }
+        &__descr {
+            top: 69%;
         }
     }
     .about {
@@ -371,14 +373,16 @@
         }
     }
     .footer {
-        width: 350px;
         &__wrapper {
-            position: relative;
-            width: 330px;
-            justify-content: center;
+            flex-direction: column-reverse;
         }
-        &__block {
-            margin: 0 80px;
+        &__contact {
+            margin-top: 15px
+        }
+        &__navigation {
+            align-items: center;
+            margin-top: 15px;
+            font-size: 16px;
         }
     }
 };
@@ -427,18 +431,13 @@
         }
     }
     .services {
-        position: relative;
-        width: 300px;
         &__official {
             font-size: 17px;
-            width: 270px;
             span {
                 font-size: 16px;
             }
         }
         &__item {
-            position: relative;
-            right: 10px;
             width: 240px;
         }
         &__descr {
@@ -454,6 +453,7 @@
     .package {
         &__item {
             height: 390px;
+            width: 185px;
         }
     }
     .about {

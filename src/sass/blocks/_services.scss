@@ -1,9 +1,7 @@
 .services {
     min-height: 600px;
-    background: url('../../img/bg_services.jpg') center (center / cover) no-repeat;
+    background: url('../img/bg_services.jpg') center (center / cover) no-repeat;
     padding: 65px 15px 30px 15px;
-    width: 1140px;
-    margin: 0 auto;
     &__block {
         display: flex;
         flex-wrap: wrap;
@@ -11,10 +9,11 @@
         align-items: flex-start;
     }
     &__item {
-        width: 200px;
-        min-height: 330px;
+        width: 300px;
+        min-height: 200px;
         text-align: center;
         margin-bottom: 50px;
+        padding: 10px;
     }
     &__icon {
         width: 140px;
@@ -24,12 +23,14 @@
         }
     }
     &__descr {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 22px;
         font-weight: 700;
         margin: 0 auto;
     }
     &__official {
+        display: block;
+        margin: 0 auto;
         text-transform: uppercase;
         text-align: center;
         font-size: 24px;
