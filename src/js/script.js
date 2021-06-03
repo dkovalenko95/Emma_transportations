@@ -15,3 +15,24 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// Carousel - slick-slider
+
+$(document).ready(function() {
+    $('.carousel__slider').slick({
+        arrows: true,
+        dots: false,
+        speed: 1200,
+        slidesToShow: 1,
+        adaptiveHeight: false,
+        responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                dots: true
+            }
+        }
+        ]
+    });
+});
