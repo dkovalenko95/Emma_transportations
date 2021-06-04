@@ -23,15 +23,28 @@ $(document).ready(function() {
         arrows: true,
         dots: false,
         speed: 1200,
-        slidesToShow: 1,
-        adaptiveHeight: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
         responsive: [
         {
             breakpoint: 768,
             settings: {
                 arrows: false,
                 dots: true
-            }
+            }            
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                arrows: false,
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }            
         }
         ]
     });

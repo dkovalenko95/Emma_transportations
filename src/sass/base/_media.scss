@@ -9,7 +9,7 @@
             padding-right: 10px;
         }
         &__item {
-            width: 110px;
+            width: 87px;
         }
     }
     .promo {
@@ -67,7 +67,6 @@
             width: 530px;
         }
         &__item {
-            width: 80px;
             a {
                 font-size: 14px;
                 &:hover {
@@ -137,8 +136,11 @@
     .carousel {
         &__slider {
             position: relative;
-            width: 600px;
+            width: 590px;
             margin: 0 auto;
+        }
+        &__item {
+            height: 400px;
         }
     }
 };
@@ -265,6 +267,9 @@
             position: relative;
             width: 500px;
             margin: 0 auto;
+        }
+        &__item {
+            height: 340px;
         }
     }
     .footer {
@@ -394,6 +399,10 @@
         }
         &__item {
             font-size: 14px;
+        }
+        .slick-dots {
+            flex-wrap: wrap;
+            padding-left: 0;
         }
     }
     .footer {
