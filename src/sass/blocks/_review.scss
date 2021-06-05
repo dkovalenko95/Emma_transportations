@@ -1,0 +1,35 @@
+.review {
+    position: relative;
+    padding: 65px 15px 30px 15px;
+    &__items {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+    }
+    &__text {
+        display: grid;
+        position: relative;
+        margin: 0 3px 12px 3px;
+        background-color: #FFC0CB;
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: left;
+        word-spacing: 6px;
+        
+    }
+    #fourth {
+        grid-row: 1 / 3;
+        grid-column: 4 / 5;
+    }
+    #eight {
+        grid-column: 1 / 3;
+    }
+    #nineteenth {
+        grid-column: 1 / 3;
+    }
+    #twentieth {
+        grid-column: 3 / 5;
+    }
+}
