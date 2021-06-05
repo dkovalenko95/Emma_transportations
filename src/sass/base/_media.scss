@@ -19,6 +19,9 @@
         &__service {
             width: 330px;
         }
+        &__text {
+            margin-bottom: 10px;
+        }
         &__info {
             width: 411px;
             left: 509px;
@@ -274,6 +277,7 @@
         }
         &__btn {
             margin-left: 30px;
+            margin-top: 20px;
         }
     }
     .price {
