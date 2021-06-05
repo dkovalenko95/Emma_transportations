@@ -351,8 +351,14 @@
 };
 
 @media (max-width: 575.98px) {
-    ul .inner .card-b {
-        height: 250px;
+    .card {
+        padding: 10px;
+        &__photo img{
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            width: 350px;
+        }
     }
     .container {
         width: 370px;
@@ -514,8 +520,14 @@
 };
 
 @media (max-width: 419.98px) {
-    ul .inner .card-b {
-        height: 210px;
+    .card {
+        padding: 10px;
+        &__photo img{
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            width: 270px;
+        }
     }
     .container {
         width: 295px;

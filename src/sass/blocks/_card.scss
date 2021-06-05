@@ -1,37 +1,9 @@
-ul {
-    list-style: none;
-    padding: 0;
-    .inner {
-        padding-left: 0;
-        overflow: hidden;
-        display: none;
-        text-align: center;
-        /* &.show {
-            display: flex;
-        } */
-        .card-b {
-            height: 300px;
-        }
-    }
-  
-    li {
-        margin: 0;     
-        a.toggle {
-            width: 100%;
-            display: block;
-            text-align: center;
-            background: #fff;
-            color: #fefefe;
-            padding: 0;
-            margin: 0;
-            margin-bottom: 5px;
-            transition: background .3s ease;
-            &:hover {
-                background: #fff;
-            }
-            .arrow {
-                height: 30px;
-            }
-        }
+.card {
+    padding: 10px;
+    &__photo img{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 500px;
     }
 }
