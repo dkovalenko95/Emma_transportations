@@ -276,7 +276,7 @@
             width: 280px;
         }
         &__btn {
-            margin-left: 30px;
+            margin-left: 0;
             margin-top: 20px;
         }
     }
@@ -362,6 +362,7 @@
             display: block;
             margin: 0 auto;
             width: 350px;
+            margin-bottom: 30px;
         }
     }
     .container {
@@ -530,7 +531,8 @@
             position: relative;
             display: block;
             margin: 0 auto;
-            width: 270px;
+            width: 280px;
+            margin-bottom: 30px;
         }
     }
     .container {
@@ -572,7 +574,7 @@
             right: 20px;
         }
         &__btn {
-            margin-left: 5px;
+            margin-left: 0;
         }
     }
     .services {

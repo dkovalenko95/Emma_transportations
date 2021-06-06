@@ -1,9 +1,9 @@
-.card {
-    padding: 10px;
-    &__photo img{
+.card__photo {
+    img {
         position: relative;
         display: block;
         margin: 0 auto;
         width: 500px;
+        margin-bottom: 30px;
     }
 }
