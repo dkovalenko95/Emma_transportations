@@ -48,6 +48,9 @@ $(document).ready(function() {
         }
         ]
     });
+
+    // UP - button
+
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1200) {
             $('.pageup').fadeIn();
